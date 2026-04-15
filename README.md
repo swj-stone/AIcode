@@ -1,6 +1,6 @@
 # AI learning
 
-meterials for LLM &Agent etc..
+Learning meterials for LLM &Agent etc..
 
-
+Projects about R, python, Amylogic, LLM, Agent are shown here
 
