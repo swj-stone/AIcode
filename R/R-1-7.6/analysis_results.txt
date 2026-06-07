@@ -1,0 +1,24 @@
+==============================================================
+  MLR ANALYSIS — MOROCCO GDP GROWTH (V3: Agriculture model)
+  Country: Morocco | Source: World Bank WDI | N=58 (1967-2024)
+==============================================================
+
+--- BEST MODEL (Forward Selection) ---
+GDP_growth ~ Agric_growth + Import_growth + Pop_growth + Export_growth +      GFCF_growth + Unemployment + FDI_pct_GDP 
+
+--- COEFFICIENTS ---
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)     0.5471     1.3378  0.4090   0.6843
+Agric_growth    0.1586     0.0084 18.8822   0.0000
+Import_growth   0.0801     0.0312  2.5701   0.0132
+Pop_growth      1.9354     0.4424  4.3750   0.0001
+Export_growth   0.1426     0.0253  5.6313   0.0000
+GFCF_growth     0.0794     0.0204  3.8903   0.0003
+Unemployment   -0.1983     0.1211 -1.6385   0.1076
+FDI_pct_GDP     0.2032     0.1753  1.1593   0.2518
+
+R²=0.9130  Adj.R²=0.9009  RMSE=1.1391  AIC=197.7
+DW=2.3411 (p=0.2539)  BP=4.2186 (p=0.7543)  JB=1.3258 (p=0.5153)
+
+FORECAST 10%: 4.8076 [2.3081, 7.3071]
+FORECAST 20%: 5.1949 [2.6530, 7.7368]
