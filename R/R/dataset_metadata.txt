@@ -1,0 +1,27 @@
+Dataset Metadata for Practical Work #2
+============================================================
+
+Dataset 1: S&P 500 Monthly Close (Task 1 - Non-seasonal)
+  File:       Dataset1_SP500_monthly.xlsx
+  Source:     Yahoo Finance (yfinance Python library)
+  Variable:   S&P 500 Index monthly closing price (USD)
+  Frequency:  Monthly
+  Period:     January 2010 – December 2024
+  Obs:        180
+  Unit:       USD (U.S. Dollars) — index points
+  Note:       Stock market index, generally non-seasonal, suitable for
+              exponential smoothing without seasonal components.
+
+Dataset 2: International Airline Passengers (Tasks 2&3 - Seasonal)
+  File:       Dataset2_AviationPassengers.xlsx
+  Source:     Box & Jenkins (1976) classic dataset, retrieved via
+              statsmodels (R datasets repository)
+  Variable:   Monthly totals of international airline passengers
+  Frequency:  Monthly
+  Period:     January 1949 – December 1960
+  Obs:        144
+  Unit:       Thousands of passengers
+  Note:       Classic seasonal time series with clear trend and
+              multiplicative seasonality (period = 12 months).
+              Perfect for SARIMA modeling and seasonal decomposition.
+  Geographic: International (global aggregate, not country-specific)
